@@ -37,7 +37,7 @@ strict_txt = [
 
 
  
-ban = ["ban","boom"]
+ban = ["ban","boom",]
 unban = ["unban",]
 mute = ["mute","silent","shut"]
 unmute = ["unmute","speak","free"]
@@ -53,7 +53,7 @@ channel = ["channel"]
 # ========================================= #
 
 
-@app.on_message(filters.command(["exi","aby"], prefixes=["b", "N"]) & admin_filter)
+@app.on_message(filters.command(["abu","abu"], prefixes=["b", "B"]) & admin_filter)
 async def restriction_app(app :app, message):
     reply = message.reply_to_message
     chat_id = message.chat.id
@@ -71,13 +71,13 @@ async def restriction_app(app :app, message):
                     await message.reply(random.choice(strict_txt))          
                 else:
                     await app.ban_chat_member(chat_id, user_id)
-                    await message.reply("OK, Ban kar diya madrchod ko sala Chutiya tha !")
+                    await message.reply("OK Babu 😘😘, Ban kar diya madrchod ko sala Chutiya tha !")
                     
         for unbanned in data:
             print(f"present {unbanned}")
             if unbanned in unban:
                 await app.unban_chat_member(chat_id, user_id)
-                await message.reply(f"Ok, aap bolte hai to unban kar diya") 
+                await message.reply(f"Ok Babu 😘😘, aap bolte hai to unban kar diya") 
                 
         for kicked in data:
             print(f"present {kicked}")
@@ -88,7 +88,7 @@ async def restriction_app(app :app, message):
                 else:
                     await app.ban_chat_member(chat_id, user_id)
                     await app.unban_chat_member(chat_id, user_id)
-                    await message.reply("get lost! bhga diya bhosdi wale ko") 
+                    await message.reply("Ok Babu 😘😘! bhga diya bhosdi wale ko") 
                     
         for muted in data:
             print(f"present {muted}") 
@@ -99,7 +99,7 @@ async def restriction_app(app :app, message):
                 else:
                     permissions = ChatPermissions(can_send_messages=False)
                     await message.chat.restrict_member(user_id, permissions)
-                    await message.reply(f"muted successfully! Disgusting people.") 
+                    await message.reply(f"Ok Babu 😘😘, muted successfully! Disgusting people.") 
                     
         for unmuted in data:
             print(f"present {unmuted}")            
@@ -123,7 +123,7 @@ async def restriction_app(app :app, message):
                     can_manage_video_chats=True,
                        )
                      )
-                await message.reply("promoted !")
+                await message.reply("ok Babu 😘😘, promoted !")
 
         for demoted in data:
             print(f"present {demoted}")            
@@ -139,7 +139,7 @@ async def restriction_app(app :app, message):
                     can_manage_video_chats=False,
                        )
                      )
-                await message.reply("demoted !")
+                await message.reply("Ok Babu 😘😘, demoted !")
 
 
 #async def your_function():
@@ -157,4 +157,4 @@ async def restriction_app(app :app, message):
                 can_manage_video_chats=True,
                )
              )
-            await message.reply("fullpromoted !")
+            await message.reply("Ok Babu 😘😘, fullpromoted !")
