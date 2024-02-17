@@ -6,7 +6,7 @@ from pyrogram.enums import ChatAction, ParseMode
 from gtts import gTTS
 import requests, config
 
-openai.api_key = "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"#chatgpt
+openai.api_key = "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"#chatgpt
 
 api_key ="761bd6eb-ab6c-466c-adb6-f3b97ef72c83" #deepai
 
