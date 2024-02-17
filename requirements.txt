@@ -2,14 +2,14 @@ aiofiles
 bard
 SpeechRecognition
 pornhub-api==0.2.0
-aiohttp 
-asyncio 
+aiohttp== 3.9.3
+asyncio==3.4.3
 beautifulsoup4
 daxxhub
 deepai
 python-whois
 dnspython
-ffmpeg-python
+ffmpeg-python==0.2.0
 gitpython
 hachoir
 Faker
@@ -31,18 +31,18 @@ py-tgcalls==0.9.7
 pykeyboard
 pyshorteners
 pyrogram==2.0.106
-python-dotenv
+python-dotenv==1.0.0
 pyyaml==6.0.1
-requests
+requests==2.31.0
 emojis
 speedtest-cli
 spotipy
-tgcrypto
+tgcrypto==1.2.5
 telegraph
 unidecode
 yt-dlp
-youtube-search
-youtube-search-python
+youtube-search==2.1.2
+youtube-search-python==1.6.6
 gtts
 git+https://github.com/AsmSafone/SafoneAPI
 lexica-api==1.5.4
@@ -55,3 +55,4 @@ img2pdf
 cloudscraper
 pycryptodome
 opencv-python
+SafoneAPI
