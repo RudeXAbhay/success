@@ -4,7 +4,7 @@ from pyrogram import filters
 from DAXXMUSIC import app
 from pyrogram.enums import ChatAction, ParseMode
 from gtts import gTTS
-from config import GPT_API
+from config import GPT_API, DEEP_API
 import requests, config
 import requests as r
 
@@ -113,7 +113,7 @@ async def deepchat(app: app, message):
 
 #####
 
-@app.on_message(filters.command(["aby" , ],  prefixes=["b","B"]))
+@app.on_message(filters.command(["iri" , ],  prefixes=["s","S"]))
 async def deepchat(app: app, message):
     name = message.from_user.first_name
     try:
