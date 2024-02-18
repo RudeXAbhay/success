@@ -10,7 +10,7 @@ from DAXXMUSIC.core.call import DAXX
 from DAXXMUSIC.misc import sudo
 from DAXXMUSIC.plugins import ALL_MODULES
 from DAXXMUSIC.utils.database import get_banned_users, get_gbanned
-from config import BANNED_USERS, GPT_API
+from config import BANNED_USERS,
 
 
 async def init():
