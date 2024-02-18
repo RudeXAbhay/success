@@ -113,7 +113,7 @@ async def deepchat(app: app, message):
 
 #####
 
-@app.on_message(filters.command(["ase" , ],  prefixes=["b","B"]))
+@app.on_message(filters.command(["aby" , ],  prefixes=["b","B"]))
 async def deepchat(app: app, message):
     name = message.from_user.first_name
     try:
