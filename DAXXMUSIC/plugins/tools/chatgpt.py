@@ -4,6 +4,7 @@ from pyrogram import filters
 from DAXXMUSIC import app
 from pyrogram.enums import ChatAction, ParseMode
 from gtts import gTTS
+from config import GPT_API
 import requests, config
 import requests as r
 
