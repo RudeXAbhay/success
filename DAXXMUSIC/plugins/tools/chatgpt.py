@@ -1,5 +1,6 @@
 import os, time
 import openai
+from config import GPT_API
 from pyrogram import filters
 from DAXXMUSIC import app
 from pyrogram.enums import ChatAction, ParseMode
