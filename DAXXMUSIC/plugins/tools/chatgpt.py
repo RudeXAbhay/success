@@ -10,7 +10,7 @@ import requests as r
 
 openai.api_key = config.GPT_API
 
-api_key ="761bd6eb-ab6c-466c-adb6-f3b97ef72c83" #deepai
+api_key = config.DEEP_API #deepai
 
 API_URL = "https://sugoi-api.vercel.app/search"
 
