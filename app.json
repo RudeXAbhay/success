@@ -56,7 +56,7 @@
         "description": "Your GPT API Key open ai",
         "value": "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",
         "required": true
-      }
+      },
       "LOGGER_ID": {
         "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Channel ki id mat daal dena bsdk.",
         "value": "",
