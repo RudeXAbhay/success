@@ -6,9 +6,11 @@ from pyrogram.enums import ChatAction, ParseMode
 from gtts import gTTS
 import requests, config
 
-openai.api_key = "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"#chatgpt
+openai.api_key = "config.GPT_API
 
 api_key ="761bd6eb-ab6c-466c-adb6-f3b97ef72c83" #deepai
+
+API_URL = "https://sugoi-api.vercel.app/search"
 
 
 @app.on_message(filters.command(["chatgpt","ai","ask"],  prefixes=["+", ".", "/", "-", "?", "$","#","&"]))
