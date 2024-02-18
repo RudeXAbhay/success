@@ -5,6 +5,7 @@ from DAXXMUSIC import app
 from pyrogram.enums import ChatAction, ParseMode
 from gtts import gTTS
 import requests, config
+import requests as r
 
 openai.api_key = config.GPT_API
 
