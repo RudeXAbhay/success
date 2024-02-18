@@ -52,6 +52,11 @@
         "value": "",
         "required": false
       },
+      "DEEP_API": {
+      "description": "Your DEEP API https://deepai.org/",
+      "value": "",
+      "required": true
+      },
       "GPT_API": {
         "description": "Your GPT API Key open ai",
         "value": "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",
