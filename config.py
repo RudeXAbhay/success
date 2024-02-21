@@ -14,7 +14,7 @@ API_HASH = getenv("API_HASH")
 # ------------------------------------------------------
 BOT_TOKEN = getenv("BOT_TOKEN")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","MR_CUTE_X")
+OWNER_USERNAME = getenv("OWNER_USERNAME","aboutcutex")
 # --------------------------------------------------------
 BOT_USERNAME = getenv("BOT_USERNAME" , "Miss_ruhi_bot")
 # --------------------------------------------------------
@@ -70,7 +70,7 @@ GIT_TOKEN = getenv(
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/hyperxfellings")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+j5Wdl4LWJiNhNTA1")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+JoSPjg4d91QzMWNl")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
