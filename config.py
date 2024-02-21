@@ -55,7 +55,7 @@ DEEP_API = getenv("DEEP_API")
 # ----------------------------------------------------------------
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/golujha9936/EvoXpro/",
+    "https://github.com/Anurag8953/Evoxpro/",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv(
