@@ -58,9 +58,9 @@ async def isPreviewUp(preview: str) -> bool:
 @app.on_message(filters.command("paste"))
 async def paste_func(_, message):
     if not message.reply_to_message:
-        return await message.reply_text("**ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴍᴇssᴀɢᴇ ᴡɪᴛʜ /paste\n│ \n└➻ ᴍᴀᴅᴇ ʙʏ Evo^xᴅ 𓆩🇮🇳𓆪**")
+        return await message.reply_text("**ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴍᴇssᴀɢᴇ ᴡɪᴛʜ /paste\n│ \n└➻ ᴍᴀᴅᴇ ʙʏ ❣️✰ 𝕄𝕣 𝕔𝕦𝕥𝕖 𝕩 ✰😈**")
 
-    m = await message.reply_text("**ᴘᴀsᴛɪɴɢ ᴘʟs ᴡᴀɪᴛ 10 sᴇᴄ....\n│ \n└➻ ᴍᴀᴅᴇ ʙʏ Evo^xᴅ 𓆩🇮🇳𓆪**")
+    m = await message.reply_text("**ᴘᴀsᴛɪɴɢ ᴘʟs ᴡᴀɪᴛ 10 sᴇᴄ....\n│ \n└➻ ᴍᴀᴅᴇ ʙʏ ❣️✰ 𝕄𝕣 𝕔𝕦𝕥𝕖 𝕩 ✰😈**")
 
     if message.reply_to_message.text:
         content = str(message.reply_to_message.text)
@@ -87,12 +87,12 @@ async def paste_func(_, message):
             carbon = await make_carbon(content_chunk)
 
             await m.delete()
-            text = await message.reply("**✍️ᴘᴀsᴛᴇᴅ ᴏɴ ᴄᴀʀʙᴏɴ ᴘᴀɢᴇ !\n│ \n└➻ ᴍᴀᴅᴇ ʙʏ Evo^xᴅ 𓆩🇮🇳𓆪**")
+            text = await message.reply("**✍️ᴘᴀsᴛᴇᴅ ᴏɴ ᴄᴀʀʙᴏɴ ᴘᴀɢᴇ !\n│ \n└➻ ᴍᴀᴅᴇ ʙʏ ❣️✰ 𝕄𝕣 𝕔𝕦𝕥𝕖 𝕩 ✰😈**")
             await asyncio.sleep(0.4)
-            await text.edit("**ᴜᴘʟᴏᴀᴅɪɴɢ ᴜɴᴅᴇʀ 5 sᴇᴄ.\n│ \n└➻ ᴍᴀᴅᴇ ʙʏ Evo^xᴅ 𓆩🇮🇳𓆪**")
+            await text.edit("**ᴜᴘʟᴏᴀᴅɪɴɢ ᴜɴᴅᴇʀ 5 sᴇᴄ.\n│ \n└➻ ᴍᴀᴅᴇ ʙʏ ❣️✰ 𝕄𝕣 𝕔𝕦𝕥𝕖 𝕩 ✰😈")
             await asyncio.sleep(0.4)
-            await text.edit("**ᴜᴘʟᴏᴀᴅɪɴɢ ᴜɴᴅᴇʀ 5 sᴇᴄ....\n│ \n└➻ ᴍᴀᴅᴇ ʙʏ Evo^xᴅ 𓆩🇮🇳𓆪**")
-            caption = f"🥀ᴛʜɪs ɪs  {page_number} ᴘᴀɢᴇ - {current_line + 1} to {end_line} ʟɪɴᴇs..\n sᴇɴᴅɪɴɢ ᴍᴏʀᴇ ʟɪɴᴇs ɪғ ʜᴀᴠᴇ ᴏɴ ɴᴇxᴛ ᴘᴀɢᴇ ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ...\n│ \n└➻ ᴍᴀᴅᴇ ʙʏ Evo^xᴅ 𓆩🇮🇳𓆪"
+            await text.edit("**ᴜᴘʟᴏᴀᴅɪɴɢ ᴜɴᴅᴇʀ 5 sᴇᴄ....\n│ \n└➻ ᴍᴀᴅᴇ ʙʏ ❣️✰ 𝕄𝕣 𝕔𝕦𝕥𝕖 𝕩 ✰😈**")
+            caption = f"🥀ᴛʜɪs ɪs  {page_number} ᴘᴀɢᴇ - {current_line + 1} to {end_line} ʟɪɴᴇs..\n sᴇɴᴅɪɴɢ ᴍᴏʀᴇ ʟɪɴᴇs ɪғ ʜᴀᴠᴇ ᴏɴ ɴᴇxᴛ ᴘᴀɢᴇ ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ...\n│ \n└➻ ᴍᴀᴅᴇ ʙʏ ❣️✰ 𝕄𝕣 𝕔𝕦𝕥𝕖 𝕩 ✰😈"
             await message.reply_photo(carbon, caption=caption)
             await text.delete()
             carbon.close()
