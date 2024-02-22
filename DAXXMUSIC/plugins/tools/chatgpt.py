@@ -4,11 +4,15 @@ from pyrogram import filters
 from DAXXMUSIC import app
 from pyrogram.enums import ChatAction, ParseMode
 from gtts import gTTS
+from config import GPT_API, DEEP_API
 import requests, config
+import requests as r
 
-openai.api_key = "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"#chatgpt
+openai.api_key = config.GPT_API
 
-api_key = "761bd6eb-ab6c-466c-adb6-f3b97ef72c83" #deepai
+api_key = config.DEEP_API #deepai
+
+API_URL = "https://sugoi-api.vercel.app/search"
 
 
 @app.on_message(filters.command(["chatgpt","ai","ask"],  prefixes=["+", ".", "/", "-", "?", "$","#","&"]))
