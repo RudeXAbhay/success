@@ -43,19 +43,19 @@ async def init():
         await DAXX.stream_call("https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4")
     except NoActiveGroupCall:
         LOGGER("DAXXMUSIC").error(
-            "𝗣𝗹𝗭 𝗦𝗧𝗔𝗥𝗧 𝗬𝗢𝗨𝗥 𝗟𝗢𝗚 𝗚𝗥𝗢𝗨𝗣 𝗩𝗢𝗜𝗖𝗘𝗖𝗛𝗔𝗧\𝗖𝗛𝗔𝗡𝗡𝗘𝗟\n\n𝗘𝗩𝗢 𝗫 𝗣𝗥𝗢 𝗕𝗢𝗧 𝗦𝗧𝗢𝗣........"
+            "𝗣𝗹𝗭 𝗦𝗧𝗔𝗥𝗧 𝗬𝗢𝗨𝗥 𝗟𝗢𝗚 𝗚𝗥𝗢𝗨𝗣 𝗩𝗢𝗜𝗖𝗘𝗖𝗛𝗔𝗧\𝗖𝗛𝗔𝗡𝗡𝗘𝗟\n\n𝗠𝗥 𝗖𝗨𝗧𝗘 𝗫 𝗕𝗢𝗧 𝗦𝗧𝗢𝗣........"
         )
         exit()
     except:
         pass
     await DAXX.decorators()
     LOGGER("DAXXMUSIC").info(
-        "╔═════ஜ۩۞۩ஜ════╗\n  ☠︎︎𝗠𝗔𝗗𝗘 𝗕𝗬 𝗘𝗩𝗢 𝗫 𝗣𝗥𝗢☠︎︎\n╚═════ஜ۩۞۩ஜ════╝"
+        "╔═════ஜ۩۞۩ஜ════╗\n  ☠︎︎𝗠𝗔𝗗𝗘 𝗕𝗬 𝗠𝗥 𝗖𝗨𝗧𝗘 𝗫☠︎︎\n╚═════ஜ۩۞۩ஜ════╝"
     )
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("DAXXMUSIC").info("𝗦𝗧𝗢𝗣 𝗘𝗩𝗢 𝗫𝗗 𝗠𝗨𝗦𝗜𝗖🎻 𝗕𝗢𝗧..")
+    LOGGER("DAXXMUSIC").info("𝗦𝗧𝗢𝗣 𝗠𝗥 𝗖𝗨𝗧𝗘 𝗫 𝗫𝗗 𝗠𝗨𝗦𝗜𝗖🎻 𝗕𝗢𝗧..")
 
 
 if __name__ == "__main__":
