@@ -36,7 +36,7 @@ async def chat(app :app, message):
 
 
 
-@app.on_message(filters.command(["aan" , ],  prefixes=["j","J"]))
+@app.on_message(filters.command(["aan" ,"lexa" ],  prefixes=["j","J","A","a"]))
 async def chat(app :app, message):
     
     try:
