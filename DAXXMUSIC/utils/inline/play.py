@@ -70,7 +70,7 @@ def stream_markup_timer(_, chat_id, played, dur):
          InlineKeyboardButton(text="😈ᴏᴡɴᴇʀ😈", user_id=config.OWNER_ID),
          InlineKeyboardButton(text="✨sᴜᴘᴘᴏʀᴛ✨", url=f"{SUPPORT_CHAT}",),
         ],
-        [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
+        [InlineKeyboardButton(text="•ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ•", url=f"https://t.me/Miss_ruhi_bot?startgroup=true")],
     ]
     return buttons
 
@@ -87,7 +87,7 @@ def stream_markup(_, chat_id):
          InlineKeyboardButton(text="😈ᴏᴡɴᴇʀ😈", user_id=config.OWNER_ID),
          InlineKeyboardButton(text="✨sᴜᴘᴘᴏʀᴛ✨", url=f"{SUPPORT_CHAT}",),
         ],
-        [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
+        [InlineKeyboardButton(text="•ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ•", url=f"https://t.me/Miss_ruhi_bot?startgroup=true")],
     ]
     return buttons
 
