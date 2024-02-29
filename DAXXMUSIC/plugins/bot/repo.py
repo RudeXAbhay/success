@@ -47,7 +47,7 @@ async def start(_, msg):
 InlineKeyboardButton("𝗖𝗛𝗔𝗧 𝗕𝗢𝗧", url=f"https://t.me/kaalcoders"),
 ],
 [
-InlineKeyboardButton("BOT LIST", url=f"https://t.me/aboucutex"),
+InlineKeyboardButton("BOT LIST", url=f"https://t.me/aboutcutex"),
 ],
 [
               InlineKeyboardButton("𝗩𝗣𝗦", url=f"https://t.me/kaalcoders"),
