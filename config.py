@@ -14,11 +14,11 @@ API_HASH = getenv("API_HASH")
 # ------------------------------------------------------
 BOT_TOKEN = getenv("BOT_TOKEN")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","EvoXpro")
+OWNER_USERNAME = getenv("OWNER_USERNAME","rudexabhay")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME" , "EvoXpro")
+BOT_USERNAME = getenv("BOT_USERNAME" , "rudexabhay")
 # --------------------------------------------------------
-BOT_NAME = getenv("BOT_NAME" , "EvoXpro")
+BOT_NAME = getenv("BOT_NAME" , "rudexabhay")
 # ---------------------------------------------------------
 ASSUSERNAME = getenv("ASSUSERNAME" , "MREVO")
 # ---------------------------------------------------------
@@ -35,10 +35,10 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # ----------------------------------------------------------------
 
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID", -1002133369721))
+LOGGER_ID = int(getenv("LOGGER_ID", -1001954707478))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", 5948367761))
+OWNER_ID = int(getenv("OWNER_ID", 5506772530))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 
