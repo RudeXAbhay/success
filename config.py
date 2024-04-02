@@ -14,13 +14,13 @@ API_HASH = getenv("API_HASH")
 # ------------------------------------------------------
 BOT_TOKEN = getenv("BOT_TOKEN")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","aboutcutex")
+OWNER_USERNAME = getenv("OWNER_USERNAME","rudexabhay")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME" , "Miss_ruhi_bot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "rudexabhay")
 # --------------------------------------------------------
-BOT_NAME = getenv("BOT_NAME" , "CUTE X MUSIC")
+BOT_NAME = getenv("BOT_NAME" , "rudexabhay")
 # ---------------------------------------------------------
-ASSUSERNAME = getenv("ASSUSERNAME" , "Piku_Chiku_2")
+ASSUSERNAME = getenv("ASSUSERNAME" , "rudexabhay")
 # ---------------------------------------------------------
 
 
@@ -35,10 +35,10 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # ----------------------------------------------------------------
 
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID", -1001899756930))
+LOGGER_ID = int(getenv("LOGGER_ID", -1001954707478))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", 5111294407))
+OWNER_ID = int(getenv("OWNER_ID", 5506772530))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 
@@ -55,7 +55,7 @@ DEEP_API = getenv("DEEP_API")
 # ----------------------------------------------------------------
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Anurag8953/Evoxpro/",
+    "https://github.com/RudeXAbhay/success/",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv(
