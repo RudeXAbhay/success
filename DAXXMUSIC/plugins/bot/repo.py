@@ -7,7 +7,7 @@ import httpx
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 start_txt = """**
-✪ Welcome for Mr cute x Repos ✪
+✪ Welcome for RudeX Abhay Repos ✪
  
  ➲ ᴀʟʟ ʀᴇᴘᴏ ᴇᴀsɪʟʏ ᴅᴇᴘʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ ᴡɪᴛʜᴏᴜᴛ ᴀɴʏ ᴇʀʀᴏʀ ✰
  
@@ -32,29 +32,29 @@ async def start(_, msg):
           InlineKeyboardButton("𝗔𝗗𝗗 𝗠𝗘", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
         ],
         [
-          InlineKeyboardButton("𝗛𝗘𝗟𝗣", url="https://t.me/+JoSPjg4d91QzMWNl"),
-          InlineKeyboardButton("𝗢𝗪𝗡𝗘𝗥", url="https://t.me/MR_CUTE_X"),
+          InlineKeyboardButton("𝗛𝗘𝗟𝗣", url="https://t.me/+0ez263q6vCIwMTM1"),
+          InlineKeyboardButton("𝗢𝗪𝗡𝗘𝗥", url="https://t.me/rudexabhay"),
           ],
                [
-                InlineKeyboardButton("CHANNEL", url="https://t.me/hyperxfellings"),
+                InlineKeyboardButton("CHANNEL", url="https://t.me/rudexzone"),
 
 ],
 [
-              InlineKeyboardButton("𝗕𝗔𝗡 𝗔𝗟𝗟︎", url=f"https://t.me/+JoSPjg4d91QzMWNl"),
+              InlineKeyboardButton("𝗕𝗔𝗡 𝗔𝗟𝗟︎", url=f"https://t.me/+0ez263q6vCIwMTM1"),
               ],
               [
-              InlineKeyboardButton("𝗠𝗔𝗡𝗔𝗚𝗘𝗠𝗘𝗡𝗧︎", url=f"https://t.me/aboutcutex"),
-InlineKeyboardButton("𝗖𝗛𝗔𝗧 𝗕𝗢𝗧", url=f"https://t.me/kaalcoders"),
+              InlineKeyboardButton("𝗠𝗔𝗡𝗔𝗚𝗘𝗠𝗘𝗡𝗧︎", url=f"https://t.me/rudexzone"),
+InlineKeyboardButton("𝗖𝗛𝗔𝗧 𝗕𝗢𝗧", url=f"https://t.me/+0ez263q6vCIwMTM1"),
 ],
 [
-InlineKeyboardButton("BOT LIST", url=f"https://t.me/aboutcutex"),
+InlineKeyboardButton("BOT LIST", url=f"https://t.me/+0ez263q6vCIwMTM1"),
 ],
 [
               InlineKeyboardButton("𝗩𝗣𝗦", url=f"https://t.me/kaalcoders"),
               InlineKeyboardButton("𝗠𝗢𝗩𝗜𝗘︎", url=f"https://t.me/okflix_tg"),
               ],
 [
-InlineKeyboardButton("SUPPORT GROUP", url=f"https://t.me/+JoSPjg4d91QzMWNl"),
+InlineKeyboardButton("SUPPORT GROUP", url=f"https://t.me/+0ez263q6vCIwMTM1"),
 
         ]]
     
@@ -84,7 +84,7 @@ async def repo(_, message):
             list_of_users += f"{count}. [{user['login']}]({user['html_url']})\n"
             count += 1
 
-        text = f"""[𝖱𝖤𝖯𝖮 𝖫𝖨𝖭𝖪](https://t.me/kaalcoders) | [𝖦𝖱𝖮𝖴𝖯](https://t.me/+JoSPjg4d91QzMWNl)
+        text = f"""[𝖱𝖤𝖯𝖮 𝖫𝖨𝖭𝖪](https://t.me/rudexabhay) | [𝖦𝖱𝖮𝖴𝖯](https://t.me/+0ez263q6vCIwMTM1)
 | 𝖢𝖮𝖭𝖳𝖱𝖨𝖡𝖴𝖳𝖮𝖱𝖲 |
 ----------------
 {list_of_users}"""
