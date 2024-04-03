@@ -60,10 +60,10 @@ async def remove(client, message):
                 k+=1
                 await asyncio.sleep(10)
               if k == lenDeletedList:  
-                await message.reply(f"✅ | sᴜᴄᴄᴇssғᴜʟʟʏ ʀᴇᴍᴏᴠᴇᴅ ᴀʟʟ ᴅᴇʟᴇᴛᴇᴅ ᴀᴄᴄɪᴜɴᴛs ғʀᴏᴍ ᴛʜɪs ᴄʜᴀᴛ.\n│ \n└➻ ᴍᴀᴅᴇ ʙʏ ❣️✰ 𝕄𝕣 𝕔𝕦𝕥𝕖 𝕩 ✰😈")  
+                await message.reply(f"✅ | sᴜᴄᴄᴇssғᴜʟʟʏ ʀᴇᴍᴏᴠᴇᴅ ᴀʟʟ ᴅᴇʟᴇᴛᴇᴅ ᴀᴄᴄɪᴜɴᴛs ғʀᴏᴍ ᴛʜɪs ᴄʜᴀᴛ.\n│ \n└➻ ᴍᴀᴅᴇ ʙʏ ☠️ ᴛʜᴀᴋᴜʀ ᴀʙʜᴀʏ ☠️")  
                 await temp.delete()
               else:
-                await message.reply(f"✅ | sᴜᴄᴄᴇssғᴜʟʟʏ ʀᴇᴍᴏᴠᴇᴅ {k} ᴅᴇʟᴇᴛᴇᴅ ᴀᴄᴄᴏᴜɴᴛs ғʀᴏᴍ ᴛʜɪs ᴄʜᴀᴛ.\n│ \n└➻ ᴍᴀᴅᴇ ʙʏ ❣️✰ 𝕄𝕣 𝕔𝕦𝕥𝕖 𝕩 ✰😈")  
+                await message.reply(f"✅ | sᴜᴄᴄᴇssғᴜʟʟʏ ʀᴇᴍᴏᴠᴇᴅ {k} ᴅᴇʟᴇᴛᴇᴅ ᴀᴄᴄᴏᴜɴᴛs ғʀᴏᴍ ᴛʜɪs ᴄʜᴀᴛ.\n│ \n└➻ ᴍᴀᴅᴇ ʙʏ ☠️ ᴛʜᴀᴋᴜʀ ᴀʙʜᴀʏ ☠️")  
                 await temp.delete()  
               chatQueue.remove(message.chat.id)
     else:
