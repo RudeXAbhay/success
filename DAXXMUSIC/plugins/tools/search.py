@@ -64,8 +64,8 @@ def btn(text, value, type="callback_data"):
 async def search_(app: app, msg: Message):
     split = msg.text.split(None, 1)
     if len(split) == 1:
-        return await msg.reply_text("**ɢɪᴠᴇ ǫᴜᴇʀʏ ᴛᴏ sᴇᴀʀᴄʜ\n│ \n└➻ ᴍᴀᴅᴇ ʙʏ ❣️✰ 𝕄𝕣 𝕔𝕦𝕥𝕖 𝕩 ✰😈**")
-    to_del = await msg.reply_text("**sᴇᴀʀᴄʜɪɴɢ ᴏɴ ɢᴏᴏɢʟᴇ...\n│ \n└➻ ᴍᴀᴅᴇ ʙʏ ❣️✰ 𝕄𝕣 𝕔𝕦𝕥𝕖 𝕩 ✰😈**")
+        return await msg.reply_text("**ɢɪᴠᴇ ǫᴜᴇʀʏ ᴛᴏ sᴇᴀʀᴄʜ\n│ \n└➻ ᴍᴀᴅᴇ ʙʏ ☠️ ᴛʜᴀᴋᴜʀ ᴀʙʜᴀʏ ☠️**")
+    to_del = await msg.reply_text("**sᴇᴀʀᴄʜɪɴɢ ᴏɴ ɢᴏᴏɢʟᴇ...\n│ \n└➻ ᴍᴀᴅᴇ ʙʏ ☠️ ᴛʜᴀᴋᴜʀ ᴀʙʜᴀʏ ☠️**")
     query = split[1]
     try:
         result = await gsearch.async_search(query)
@@ -115,15 +115,15 @@ async def search_(app: app, msg: Message):
         return
     except NoResultsFound:
         await to_del.delete()
-        await msg.reply_text("**ɴᴏ ʀᴇsᴜʟᴛ ғᴏᴜɴᴅ ᴄᴏʀʀᴇsᴘᴏɴᴅɪɴɢ ᴛᴏ ʏᴏᴜʀ ǫᴜᴇʀʏ\n│ \n└➻ ᴍᴀᴅᴇ ʙʏ ❣️✰ 𝕄𝕣 𝕔𝕦𝕥𝕖 𝕩 ✰😈**")
+        await msg.reply_text("**ɴᴏ ʀᴇsᴜʟᴛ ғᴏᴜɴᴅ ᴄᴏʀʀᴇsᴘᴏɴᴅɪɴɢ ᴛᴏ ʏᴏᴜʀ ǫᴜᴇʀʏ\n│ \n└➻ ᴍᴀᴅᴇ ʙʏ ☠️ ᴛʜᴀᴋᴜʀ ᴀʙʜᴀʏ ☠️**")
         return
     except NoResultsOrTrafficError:
         await to_del.delete()
-        await msg.reply_text("****ɴᴏ ʀᴇsᴜʟᴛ ғᴏᴜɴᴅ ᴅᴜᴇ ᴛᴏ ᴛᴏᴏ ᴍᴀɴʏ ᴛʀᴀғғɪᴄ\n│ \n└➻ ᴍᴀᴅᴇ ʙʏ ❣️✰ 𝕄𝕣 𝕔𝕦𝕥𝕖 𝕩 ✰😈**")
+        await msg.reply_text("****ɴᴏ ʀᴇsᴜʟᴛ ғᴏᴜɴᴅ ᴅᴜᴇ ᴛᴏ ᴛᴏᴏ ᴍᴀɴʏ ᴛʀᴀғғɪᴄ\n│ \n└➻ ᴍᴀᴅᴇ ʙʏ ☠️ ᴛʜᴀᴋᴜʀ ᴀʙʜᴀʏ ☠️**")
         return
     except Exception as e:
         await to_del.delete()
-        await msg.reply_text(f"**sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ ᴡʀᴏɴɢ :\nʀᴇᴘᴏʀᴛ ᴀᴛ ɪᴛ** @MR_CUTE_X")
+        await msg.reply_text(f"**sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ ᴡʀᴏɴɢ :\nʀᴇᴘᴏʀᴛ ᴀᴛ ɪᴛ** @rudexabhay")
         print(f"error : {e}")
         return
 
@@ -133,8 +133,8 @@ async def search_(app: app, msg: Message):
 async def stack_search_(app: app, msg: Message):
     split = msg.text.split(None, 1)
     if len(split) == 1:
-        return await msg.reply_text("**ɢɪᴠᴇ ǫᴜᴇʀʏ ᴛᴏ sᴇᴀʀᴄʜ\n│ \n└➻ ᴍᴀᴅᴇ ʙʏ ❣️✰ 𝕄𝕣 𝕔𝕦𝕥𝕖 𝕩 ✰😈**")
-    to_del = await msg.reply_text("**sᴇᴀʀᴄʜɪɴɢ ᴏɴ ɢᴏᴏɢʟᴇ...\n│ \n└➻ ᴍᴀᴅᴇ ʙʏ ❣️✰ 𝕄𝕣 𝕔𝕦𝕥𝕖 𝕩 ✰😈**")
+        return await msg.reply_text("**ɢɪᴠᴇ ǫᴜᴇʀʏ ᴛᴏ sᴇᴀʀᴄʜ\n│ \n└➻ ᴍᴀᴅᴇ ʙʏ ☠️ ᴛʜᴀᴋᴜʀ ᴀʙʜᴀʏ ☠️**")
+    to_del = await msg.reply_text("**sᴇᴀʀᴄʜɪɴɢ ᴏɴ ɢᴏᴏɢʟᴇ...\n│ \n└➻ ᴍᴀᴅᴇ ʙʏ ☠️ ᴛʜᴀᴋᴜʀ ᴀʙʜᴀʏ ☠️**")
     query = split[1]
     try:
         result = await stsearch.async_search(query)
@@ -192,7 +192,7 @@ async def stack_search_(app: app, msg: Message):
         return
     except Exception as e:
         await to_del.delete()
-        await msg.reply_text(f"**sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ ᴡʀᴏɴɢ :\nʀᴇᴘᴏʀᴛ ᴀᴛ ɪᴛ** @MR_CUTE_X")
+        await msg.reply_text(f"**sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ ᴡʀᴏɴɢ :\nʀᴇᴘᴏʀᴛ ᴀᴛ ɪᴛ** @rudexabhay")
         print(f"error : {e}")
         return
 
