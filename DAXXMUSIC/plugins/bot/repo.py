@@ -32,7 +32,7 @@ async def start(_, msg):
           InlineKeyboardButton("𝗔𝗗𝗗 𝗠𝗘", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
         ],
         [
-          InlineKeyboardButton("𝗛𝗘𝗟𝗣", url="https://t.me/+HEbSm3iR0UA4OTU1"),
+          InlineKeyboardButton("𝗛𝗘𝗟𝗣", url="https://t.me/rudexabhay"),
           InlineKeyboardButton("𝗢𝗪𝗡𝗘𝗥", url="https://t.me/rudexabhay"),
           ],
                [
@@ -43,7 +43,7 @@ async def start(_, msg):
               InlineKeyboardButton("𝗕𝗔𝗡 𝗔𝗟𝗟︎", url=f"https://t.me/+HEbSm3iR0UA4OTU1"),
               ],
               [
-              InlineKeyboardButton("𝗠𝗔𝗡𝗔𝗚𝗘𝗠𝗘𝗡𝗧︎", url=f"https://t.me/+HEbSm3iR0UA4OTU1"),
+              InlineKeyboardButton("𝗠𝗔𝗡𝗔𝗚𝗘𝗠𝗘𝗡𝗧︎", url=f"https://t.me/rudexabhay"),
 InlineKeyboardButton("𝗖𝗛𝗔𝗧 𝗕𝗢𝗧", url=f"https://t.me/+HEbSm3iR0UA4OTU1"),
 ],
 [
@@ -74,7 +74,7 @@ InlineKeyboardButton("SUPPORT GROUP", url=f"https://t.me/+HEbSm3iR0UA4OTU1"),
 @capture_err
 async def repo(_, message):
     async with httpx.AsyncClient() as client:
-        response = await client.get("https://t.me/+HEbSm3iR0UA4OTU1 ")
+        response = await client.get("https://t.me/rudexabhay ")
     
     if response.status_code == 200:
         users = response.json()
